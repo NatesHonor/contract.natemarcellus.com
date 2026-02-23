@@ -13,8 +13,52 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Nathaniel Marcellus — Software Engineering & Technical Support",
-  description: "Freelance software engineering and technical support with secure Upwork-backed contracts.",
+  title: "Hire Nathaniel Marcellus | Freelance Software Engineer & Technical Support",
+
+  description:
+    "Hire Nathaniel Marcellus for freelance software engineering, full-stack development, automation, and technical support. Secure contracts available via Upwork or direct engagement.",
+
+  keywords: [
+    "Hire Nathaniel Marcellus",
+    "Nathaniel Marcellus freelance",
+    "Freelance Software Engineer",
+    "Full Stack Developer for hire",
+    "Technical Support Specialist",
+    "Automation Developer",
+    "Upwork Software Engineer",
+    "Remote Software Engineer",
+    "Contract Developer",
+  ],
+
+  authors: [{ name: "Nathaniel Marcellus" }],
+  creator: "Nathaniel Marcellus",
+
+  openGraph: {
+    title: "Hire Nathaniel Marcellus | Freelance Software Engineer",
+    description:
+      "Freelance software engineering and technical support. Contract Nathaniel Marcellus for secure, professional development services.",
+    url: "https://contract.natemarcellus.com/",
+    siteName: "Nathaniel Marcellus",
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Hire Nathaniel Marcellus",
+    description:
+      "Freelance software engineering & technical support. Available for contract work.",
+  },
+
+  alternates: {
+    canonical: "https://contract.natemarcellus.com/",
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+  },
+
+  category: "technology",
 };
 
 export default function RootLayout({
